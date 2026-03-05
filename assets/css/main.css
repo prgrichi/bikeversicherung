@@ -4,27 +4,29 @@
 
 @import './ui.css';
 
+@layer base {
+  button,
+  [role='button'] {
+    cursor: pointer;
+  }
+  button:disabled,
+  [role='button'][aria-disabled='true'] {
+    cursor: not-allowed;
+  }
+}
+
 /* === Dark Mode Variables === */
 :root {
-  /* Background */
-  --color-bg-page: #f8fafc; /* slate-50 */
+  --color-brand: #2563eb;
+  --color-brand-hover: #1d4ed8;
+
+  --color-bg-page: #f9fafb;
   --color-bg-surface: #ffffff;
 
-  /* Text */
-  --color-text-primary: #0f172a; /* slate-900 */
-  --color-text-secondary: #475569; /* slate-600 */
+  --color-text-primary: #111827;
+  --color-text-secondary: #6b7280;
 
-  /* Border */
-  --color-border: #e2e8f0; /* slate-200 */
-
-  /* Brand */
-  --color-primary: #2563eb; /* blue-600 */
-  --color-primary-hover: #1d4ed8; /* blue-700 */
-
-  /* Status */
-  --color-success: #16a34a; /* green-600 */
-  --color-warning: #f59e0b; /* amber-500 */
-  --color-danger: #dc2626; /* red-600 */
+  --color-border: #e5e7eb;
 
   --space-xs: 0.25rem;
   --space-sm: 0.5rem;

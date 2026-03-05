@@ -1,25 +1,28 @@
-/* @layer components { */
-.app-shell {
-  @apply min-h-screen bg-page text-primary flex flex-col;
-}
+@config '../../tailwind.config.js';
+@reference 'tailwindcss';
 
-.container {
-  @apply mx-auto max-w-app px-md sm:px-lg;
-}
+@layer components {
+  .app-shell {
+    @apply min-h-screen bg-page text-text-main flex flex-col;
+  }
 
-.page {
-  @apply py-xl sm:py-2xl;
-}
+  .container {
+    @apply mx-auto max-w-app px-md sm:px-lg;
+  }
 
-.section {
-  @apply mb-xl;
-}
+  .page {
+    @apply py-xl sm:py-2xl;
+  }
 
-.grid-2 {
-  @apply grid grid-cols-1 md:grid-cols-2 gap-lg;
-}
+  .section {
+    @apply mb-xl;
+  }
 
-.grid-3 {
-  @apply grid grid-cols-1 md:grid-cols-3 gap-lg;
+  .grid-2 {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-lg;
+  }
+
+  .grid-3 {
+    @apply grid grid-cols-1 md:grid-cols-3 gap-lg;
+  }
 }
-/* } */

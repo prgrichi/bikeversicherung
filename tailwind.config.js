@@ -1,30 +1,22 @@
 export default {
   content: ['./index.html', './**/*.{vue,js,ts}'],
-  darkMode: 'selector',
   theme: {
     extend: {
       colors: {
-        /* Background */
         page: 'var(--color-bg-page)',
         surface: 'var(--color-bg-surface)',
 
-        /* Text */
-        primary: 'var(--color-text-primary)',
-        secondary: 'var(--color-text-secondary)',
-
-        /* Border */
-        border: 'var(--color-border)',
-
-        /* Brand */
-        brand: {
-          DEFAULT: 'var(--color-primary)',
-          hover: 'var(--color-primary-hover)',
+        text: {
+          main: 'var(--color-text-primary)',
+          muted: 'var(--color-text-secondary)',
         },
 
-        /* Status */
-        // success: 'var(--color-success)',
-        // warning: 'var(--color-warning)',
-        // danger: 'var(--color-danger)',
+        border: 'var(--color-border)',
+
+        brand: {
+          DEFAULT: 'var(--color-brand)',
+          hover: 'var(--color-brand-hover)',
+        },
       },
 
       spacing: {
