@@ -1,0 +1,32 @@
+[
+  { "id": 100, "name": "Stereo Hybrid", "manufacturerId": 1 },
+  { "id": 101, "name": "Reaction", "manufacturerId": 1 },
+  { "id": 102, "name": "Kathmandu", "manufacturerId": 1 },
+  { "id": 103, "name": "Nuroad", "manufacturerId": 1 },
+
+  { "id": 200, "name": "Fuel EX", "manufacturerId": 2 },
+  { "id": 201, "name": "Domane", "manufacturerId": 2 },
+  { "id": 202, "name": "Marlin", "manufacturerId": 2 },
+  { "id": 203, "name": "Slash", "manufacturerId": 2 },
+
+  { "id": 300, "name": "Stumpjumper", "manufacturerId": 3 },
+  { "id": 301, "name": "Turbo Levo", "manufacturerId": 3 },
+  { "id": 302, "name": "Diverge", "manufacturerId": 3 },
+  { "id": 303, "name": "Rockhopper", "manufacturerId": 3 },
+
+  { "id": 400, "name": "Revox", "manufacturerId": 4 },
+  { "id": 401, "name": "Grandurance", "manufacturerId": 4 },
+  { "id": 402, "name": "E-Horizon", "manufacturerId": 4 },
+
+  { "id": 500, "name": "Neuron", "manufacturerId": 5 },
+  { "id": 501, "name": "Spectral", "manufacturerId": 5 },
+  { "id": 502, "name": "Endurace", "manufacturerId": 5 },
+
+  { "id": 600, "name": "Spark", "manufacturerId": 6 },
+  { "id": 601, "name": "Scale", "manufacturerId": 6 },
+  { "id": 602, "name": "Addict", "manufacturerId": 6 },
+
+  { "id": 700, "name": "Trance", "manufacturerId": 7 },
+  { "id": 701, "name": "Talon", "manufacturerId": 7 },
+  { "id": 702, "name": "Defy", "manufacturerId": 7 }
+]
